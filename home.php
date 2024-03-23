@@ -81,7 +81,7 @@ include_once("menu.php");
                     to help you improve your typing
                     skills. These exercises often
                     include various typing drills,
-                    interactive lessons, and paragraphs that focus on specific
+                    paragraphs that focus on specific
                     areas, such as speed, accuracy,
                     finger placement, and technique.</p>
             </div>
