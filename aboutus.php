@@ -5,53 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <style>
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    }
-    body {
-    height: 100vh;
-    background: rgb(217, 231, 217);
-    }
-    .arrow {
-    padding: 15px;
-    margin-left: 10px;
-    background-color: #0b5510;
-    width: 10px;
-    height: 10px;
-    border-radius: 50px;
-    text-decoration: none;
-}
-#icon {
-    font-size: 30px;
-    color: white;
-    margin: 10px;
-    margin-left: 10px;
-    padding-top: 20px;
-    text-align: center;
-}
-section {
-    color:white;
-    display: block;
-    width: 650px;
-    padding: 25px;
-    line-height: 1.5em;
-    margin: auto;
-    margin-bottom: 20px;
-    background-color: #0b5510;
-    height: auto;
-    box-sizing: border-box;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
-    justify-content: center;
-}
-h2{
-    text-align: center;
-}
-
-    </style>
+    <link rel="stylesheet" href="aboutus.css">
 </head>
 <body>
     <a href="home.php" class="arrow"><i id="icon" class="fa fa-arrow-left"></i></a>
