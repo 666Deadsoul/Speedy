@@ -11,6 +11,7 @@ body {
 section {
     display: flex;
     align-items: center;
+    padding: 10px;
     justify-content: center;
 }
 .block {
@@ -238,7 +239,7 @@ li:not(:first-child) span {
     font-weight: 500;
 }
 
-@media (max-width: 745px) {
+@media screen and (min-width: 518px) and  (max-width: 745px) {
     .wrapper {
         padding: 20px;
     }
@@ -253,7 +254,6 @@ li:not(:first-child) span {
 
     .typing-text p {
         font-size: 19px;
-        text-align: left;
     }
 
     .content .result-details {
@@ -275,16 +275,31 @@ li:not(:first-child) span {
     .wrapper .content-box {
         padding: 10px 15px 0;
     }
-
-    .typing-text p {
-        font-size: 13px;
-    }
-
     .result-details li {
         margin-bottom: 10px;
     }
-
-    .block button {
-        margin-top: 10px;
+    .typing-text p {
+        font-size: 15px;
     }
+    h2 {
+        font-size: 1em;
+        padding: 50px;
+    }
+    .block {
+        width: 250px;
+        padding: 5px;
+        height: 60px;
+    }
+    .block ul li p {
+        font-size: 15px;
+    }
+    .block .reset {
+        width: 50px;
+        color: #FFFFFF;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    #level {
+        font-size: 10px;
+      }
 }

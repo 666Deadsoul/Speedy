@@ -119,12 +119,14 @@ header ul li a .resize, a:hover {
 		background: none;
 		background-color: #fff;
 		color: black;
-
 	}
 	#check{
 		padding:10px;
 	}
 	#check:checked~ul {
 		left: 0;
+	}
+	header .logo {
+		font-size:20px;
 	}
 }
