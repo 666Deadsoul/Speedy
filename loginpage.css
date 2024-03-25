@@ -34,9 +34,9 @@ section .side {
     max-width: 60%;
 }
 
-.container {
-    max-width: 450px;
-    padding: 24px;
+.m_container {
+    max-width: 400px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,9 +66,10 @@ section .side {
 }
 
 .lform {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .control {
@@ -103,8 +104,7 @@ input~i {
 
 .submit {
     color: white;
-    padding: 14px 64px;
-    width: 32px auto;
+    /* padding: 14px 64px; */
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
@@ -114,18 +114,6 @@ input~i {
 
 button:hover {
     opacity: 0.9;
-}
-
-@media(max-width: 780px) {
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .side {
-        display: none;
-    }
 }
 
 .main .link {
@@ -172,4 +160,36 @@ button:hover {
 }
 .main .forgot a:hover{
     text-transform: uppercase;
+}
+@media(max-width: 780px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side {
+        display: none;
+    }
+    .main {
+        background-color: gainsboro;
+        border-radius:20px ;
+        padding:10px;
+        margin:10px;
+    }
+    .m_container {
+        padding: 5px;
+    }
+    .title {
+        font-size: 2em;
+    }
+    .lform {
+        width: 80%;
+        padding: 5px;
+    }
+    .submit {
+        font-size: 1em;
+        letter-spacing: 1px;
+        
+    }
 }

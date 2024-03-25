@@ -79,7 +79,7 @@ header ul li a .resize, a:hover {
 	display: none;
 }
 
-@media screen and (min-width: 850px) and (max-width: 1010px) {
+@media screen and (min-width: 870px) and (max-width: 1025px) {
 	header ul li a {
 		font-size: 16px;
 	}
@@ -89,7 +89,7 @@ header ul li a .resize, a:hover {
 	}
 }
 
-@media(max-width:850px) {
+@media(max-width:870px) {
 	.checkbtn {
 		display: block;
 	}

@@ -15,7 +15,7 @@
         <img src="loginP.png">
     </section>
     <section class="main">
-        <div class="conatiner">
+        <div class="m_container">
             <p class="title">Login</p>
             <div class="separator"></div>
             <p class="message">Enter Necessary Details</p>
