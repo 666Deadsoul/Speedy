@@ -24,49 +24,7 @@ $conn->close();
 <html>
 <head>
     <title>User Details</title>
-    <style>
-       body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-        }
-        table {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: auto;
-            border-collapse: collapse;
-            text-align: center;
-        }
-        th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .menu {
-            background-color: #333;
-            overflow: hidden;
-        }
-        .menu a {
-            float: right; /* Float menu items to the right */
-            color: #fff;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        .menu a:hover {
-            background-color: #ddd;
-            color: #333;
-        }
-        h1{
-            text-align:center;
-            padding:30px;
-        }
-    </style>
+    <link rel="stylesheet" href="user_detail.css">
 </head>
 <body>
 <div class="menu">

@@ -14,6 +14,7 @@ body {
 
 section {
     margin-top: 7%;
+    padding:20px;
 }
 
 #msg {
@@ -53,6 +54,7 @@ section {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    padding:10px;
 }
 
 #res_table th, #res_table td {
@@ -67,8 +69,8 @@ section {
 #res_table {
     margin: 20px auto;
     max-width: 800px;
-
     border-radius: 5px;
+    padding: 10px;
     overflow-x: auto;
 }
 
@@ -92,4 +94,34 @@ section {
 
 #res_table a:hover {
     color: black;
+}
+@media (max-width: 630px) {   
+    #res_table table
+    {
+        width: 80%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        padding:10px;
+    }
+    #res_table th, #res_table td {
+        padding: 5px;
+        font-size: 10px;
+    }
+    #res_table h2 {
+        font-size: 20px;
+    }
+    #uinfo {
+        width: 200px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    #uinfo a{
+        font-size: 13px;
+    }
+    #uinfo p{
+    font-size: 12px;
+    }
+    #uinfo h1{
+        font-size: 15px;
+        }
 }
